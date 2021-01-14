@@ -1,0 +1,60 @@
+@media (max-width: 1000px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .top-wrapper img {
+        width: 270px;
+    }
+
+    .content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 670px) {
+    .top-wrapper {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .top-wrapper img {
+        width: 200px;
+    }
+
+    .top-wrapper p {
+        font-size: small;
+    }
+
+    .header-right a {
+        font-size: 14px;
+    }
+
+    .isi {
+        margin: 5px 0 0 10px;
+    }
+
+    section,
+    h2 {
+        text-align: center;
+    }
+
+    section {
+        margin: 20px auto;
+    }
+
+    .bagian,
+    .bagian1 {
+        width: 100%;
+    }
+
+    figure {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+
+
+}
